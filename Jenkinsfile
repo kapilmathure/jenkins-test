@@ -34,12 +34,12 @@ pipeline {
 			}
 		}
 	}
-	
+
 	post {
 		always {
 			echo 'I am awesome, I run always'
 		}
-		Success {
+		success {
 			echo 'I run when your pipeline is successful'
 		}
 		failure {
